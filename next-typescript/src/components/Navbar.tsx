@@ -19,7 +19,7 @@ export default function Navbar() {
             <Link href={"/"}>Home</Link>
           </li>
           <li
-            className="relative hover:text-zinc-500 float-none"
+            className="relative hover:text-zinc-500"
             onMouseEnter={() => {
               setDropdown("block");
             }}
