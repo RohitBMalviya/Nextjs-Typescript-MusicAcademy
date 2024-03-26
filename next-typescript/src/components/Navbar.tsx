@@ -8,18 +8,20 @@ export default function Navbar() {
   const [dropdown, setDropdown] = useState("none");
   return (
     <>
-      <nav className="bg-black  w-full flex justify-center items-center space-y-4 h-20 ">
+      <nav
+        className="bg-black  w-full flex justify-center items-center space-y-4 h-20 "
+        onMouseLeave={() => {
+          setDropdown("none");
+        }}
+      >
         <ul className="min-[500px]:flex hidden justify-around items-center text-2xl max-[650px]:text-[22px] max-[950px]:w-[60%] font-semibold text- h-14 bg-white w-[50%] rounded-full ">
           <li className="hover:text-zinc-500">
             <Link href={"/"}>Home</Link>
           </li>
           <li
-            className="relative hover:text-zinc-500"
+            className="relative hover:text-zinc-500 float-none"
             onMouseEnter={() => {
               setDropdown("block");
-            }}
-            onMouseLeave={() => {
-              setDropdown("none");
             }}
           >
             <Link id="menuList" href={"/courses"} className="flex">
@@ -42,7 +44,7 @@ export default function Navbar() {
             </Link>
             <menu
               style={{ display: `${dropdown}`, zIndex: 10 }}
-              className="absolute top-8 left-[-40px] bg-white rounded-lg w-[300px] space-y-1 text-black"
+              className="absolute top-14 left-[-40px] bg-white rounded-lg w-[300px] space-y-1 text-black"
               aria-labelledby="menuList"
             >
               {Data.map((items) => (
