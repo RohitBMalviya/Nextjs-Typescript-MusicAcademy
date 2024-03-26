@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="bg-black  w-full flex justify-center items-center space-y-4 h-20 ">
-        <ul className="min-[400px]:flex hidden lg:flex md:flex sm:flex justify-around items-center text-3xl font-semibold text- h-16 bg-white lg:w-1/2 rounded-full px-8">
+        <ul className="min-[430px]:flex hidden justify-around items-center text-2xl font-semibold text- h-16 bg-white w-[60%] rounded-full ">
           <li>
             <Link href={"/"}>Home</Link>
           </li>
