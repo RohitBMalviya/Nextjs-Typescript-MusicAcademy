@@ -2,18 +2,27 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { Data } from "./SubMenuData";
 
 export default function Navbar() {
-  const [dropdown, setDropdown] = useState("");
+  const [dropdown, setDropdown] = useState("none");
   return (
     <>
       <nav className="bg-black  w-full flex justify-center items-center space-y-4 h-20 ">
-        <ul className="min-[500px]:flex hidden justify-around items-center text-2xl max-[650px]:text-[22px] max-[950px]:w-[60%] font-semibold text- h-16 bg-white w-[55%] rounded-full ">
-          <li>
+        <ul className="min-[500px]:flex hidden justify-around items-center text-2xl max-[650px]:text-[22px] max-[950px]:w-[60%] font-semibold text- h-14 bg-white w-[50%] rounded-full ">
+          <li className="hover:text-zinc-500">
             <Link href={"/"}>Home</Link>
           </li>
-          <li>
-            <Link id="menuList" href={"/courses"} className="relative flex">
+          <li
+            className="relative hover:text-zinc-500"
+            onMouseEnter={() => {
+              setDropdown("block");
+            }}
+            onMouseLeave={() => {
+              setDropdown("none");
+            }}
+          >
+            <Link id="menuList" href={"/courses"} className="flex">
               Courses
               <svg
                 className="w-3.5  ms-2 pt-2"
@@ -31,25 +40,24 @@ export default function Navbar() {
                 />
               </svg>
             </Link>
-            <menu className="absolute" aria-labelledby="menuList">
-              <li>
-                <Link href="/allcourse">All Course</Link>
-              </li>
-              <li>
-                <Link href="/basic">Basic Music Theory</Link>
-              </li>
-              <li>
-                <Link href="/advance">Advance Composition</Link>
-              </li>
-              <li>
-                <Link href="/songwriting">Songwriting</Link>
-              </li>
-              <li>
-                <Link href="/musicproduction">Music Production</Link>
-              </li>
+            <menu
+              style={{ display: `${dropdown}`, zIndex: 10 }}
+              className="absolute top-8 left-[-40px] bg-white rounded-lg w-[300px] space-y-1 text-black"
+              aria-labelledby="menuList"
+            >
+              {Data.map((items) => (
+                <li key={items.id}>
+                  <Link
+                    href={items.link}
+                    className="hover:bg-black hover:text-white  block w-full rounded-lg border-2 mt-1 mb-1 pl-6 h-10"
+                  >
+                    {items.menuTitle}
+                  </Link>
+                </li>
+              ))}
             </menu>
           </li>
-          <li>
+          <li className="hover:text-zinc-500">
             <Link href={"/contactus"}>Contact Us</Link>
           </li>
         </ul>
