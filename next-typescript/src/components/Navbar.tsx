@@ -24,7 +24,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="bg-black  w-full flex justify-center items-center h-20 ">
+      <nav className="bg-black  w-full flex justify-center items-center h-20 fixed top-0">
         <ul className="min-[500px]:flex hidden justify-around items-center text-2xl max-[650px]:text-[22px] max-[950px]:w-[60%] font-semibold text- h-14 bg-white w-[50%] rounded-full ">
           <li>
             <Link
