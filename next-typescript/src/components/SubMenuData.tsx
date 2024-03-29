@@ -1,4 +1,10 @@
-export const Data = [
+interface data {
+  id: number;
+  menuTitle: string;
+  link: string;
+}
+
+export const Data: data[] = [
   {
     id: 1,
     menuTitle: "All Course",

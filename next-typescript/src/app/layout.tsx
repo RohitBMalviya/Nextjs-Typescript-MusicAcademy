@@ -10,10 +10,10 @@ export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
-}) {
+}): JSX.Element {
   return (
     <html lang="en">
-      <body style={{ backgroundColor: "#414141", paddingTop: "90px" }}>
+      <body className="bg-black max-[699px]:pt-28 ">
         <Navbar />
         {children}
       </body>

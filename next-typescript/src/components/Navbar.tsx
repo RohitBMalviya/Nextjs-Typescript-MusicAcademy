@@ -7,11 +7,10 @@ import { usePathname } from "next/navigation";
 import Menu from "../../public/Images/Menu.svg";
 import Image from "next/image";
 
-export default function Navbar() {
+export default function Navbar(): JSX.Element {
   const pathname = usePathname();
   const [dropdown, setDropdown] = useState("none");
   const [menu, setMenu] = useState(false);
-  console.log(menu);
 
   const handleOnClicked = () => {
     if (dropdown === "none") {
@@ -24,8 +23,8 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="bg-black  w-full flex justify-center items-center h-20 fixed top-0">
-        <ul className="min-[500px]:flex hidden justify-around items-center text-2xl max-[650px]:text-[22px] max-[950px]:w-[60%] font-semibold text- h-14 bg-white w-[50%] rounded-full ">
+      <nav className="bg-transparent  w-full flex justify-center items-center h-20 min-[2000px]:h-24 fixed top-0">
+        <ul className="min-[550px]:flex hidden justify-around items-center text-2xl max-[650px]:text-[22px] max-[950px]:w-[60%] font-semibold h-14 min-[2000px]:h-16 bg-white w-[50%] rounded-full ">
           <li>
             <Link
               href={"/"}
@@ -107,7 +106,7 @@ export default function Navbar() {
         </ul>
         {/* ------------------------------------------- Menu ------------------------------------------ */}
         <div
-          className="hidden max-[499px]:flex justify-end items-center w-full text-white mr-4 mt-0"
+          className="hidden max-[549px]:flex justify-end items-center w-full text-white mr-4 mt-0"
           id="menu"
         >
           <button
