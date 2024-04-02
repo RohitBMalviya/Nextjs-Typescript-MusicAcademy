@@ -1,14 +1,10 @@
-interface data {
-  id: number;
-  menuTitle: string;
-  link: string;
-}
+import { data } from "@/interface/interface";
 
 export const Data: data[] = [
   {
     id: 1,
     menuTitle: "All Course",
-    link: "/allcourse",
+    link: "/courses",
   },
   {
     id: 2,

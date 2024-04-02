@@ -23,7 +23,7 @@ export default function Navbar(): JSX.Element {
 
   return (
     <>
-      <nav className="bg-transparent  w-full flex justify-center items-center h-20 min-[2000px]:h-24 fixed top-0">
+      <nav className="bg-transparent  w-full flex justify-center items-center h-20 min-[2000px]:h-24 fixed top-4">
         <ul className="min-[550px]:flex hidden justify-around items-center text-2xl max-[650px]:text-[22px] max-[950px]:w-[60%] font-semibold h-14 min-[2000px]:h-16 bg-white w-[50%] rounded-full ">
           <li>
             <Link
@@ -43,24 +43,16 @@ export default function Navbar(): JSX.Element {
             onMouseLeave={() => {
               setDropdown("none");
             }}
+            onClick={handleOnClicked}
           >
-            <div className="flex">
-              <Link
-                id="menuList"
-                href={"/courses"}
-                className={`${
-                  pathname === "/courses" ? "text-blue-600" : "text-black"
-                } hover:text-zinc-500`}
-              >
-                Courses
-              </Link>
+            <div id="menuList" className={"hover:text-zinc-500 flex"}>
+              <p>Courses</p>
               <svg
                 className="w-3.5  ms-2 pt-2 hover:text-zinc-500"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 10 6"
-                onClick={handleOnClicked}
               >
                 <path
                   stroke="currentColor"
@@ -71,6 +63,7 @@ export default function Navbar(): JSX.Element {
                 />
               </svg>
             </div>
+
             <menu
               style={{ display: `${dropdown}`, zIndex: 10 }}
               className="absolute left-[-40px] rounded-lg w-[300px] space-y-1"
