@@ -6,7 +6,7 @@ export default function HeroSection(): JSX.Element {
         <h1 className="min-[2000px]:text-[10rem] lg:text-9xl text-7xl font-bold max-[600px]:w-[90%]">
           Master The Art of Music
         </h1>
-        <p className="min-[2000px]:w-[38%] min-[2000px]:text-3xl lg:text-2xl text-xl max-[600px]:w-[70%] w-[50%] text-center">
+        <p className="min-[2000px]:w-[38%] min-[2000px]:text-3xl lg:text-2xl text-xl max-[600px]:w-[70%] w-[50%] text-center pb-20">
           Mastering music is delving into emotion's language, honing skills
           through practice, embracing creativity, infusing interpretation,
           fostering collaboration, and cherishing life long learning.

@@ -8,7 +8,7 @@ export default function CardSection(): JSX.Element {
   );
   return (
     <>
-      <div className="bg-gray-900 h-full w-full space-y-8 py-10 flex flex-col items-center justify-center text-centerr">
+      <div className="bg-gray-900 h-full w-full space-y-12 py-10 flex flex-col items-center justify-center my-10">
         <div className="flex flex-col justify-center items-center space-y-8 w-full">
           <h2 className="min-[2000px]:text-7xl lg:text-6xl text-5xl font-bold max-[600px]:w-[90%] text-[#00FFFF]">
             Feature Courses

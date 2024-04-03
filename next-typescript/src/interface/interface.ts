@@ -1,3 +1,5 @@
+import { StaticImageData } from "next/image";
+
 export interface data {
   id: number;
   menuTitle: string;
@@ -18,4 +20,11 @@ export interface Choices {
   id: number;
   title: string;
   description: string;
+}
+
+export interface Photos {
+  id: number;
+  src: StaticImageData;
+  alt: string;
+  width?: number;
 }
