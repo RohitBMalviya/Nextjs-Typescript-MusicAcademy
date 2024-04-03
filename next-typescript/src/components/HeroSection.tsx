@@ -2,7 +2,7 @@ import Link from "next/link";
 export default function HeroSection(): JSX.Element {
   return (
     <>
-      <main className="text-white space-y-10 flex flex-col items-center justify-center w-full min-[700px]:h-screen">
+      <main className="text-white space-y-10 flex flex-col items-center justify-center w-full min-[700px]:h-screen max-[700px]:mb-10">
         <h1 className="min-[2000px]:text-[10rem] lg:text-9xl text-7xl font-bold max-[600px]:w-[90%]">
           Master The Art of Music
         </h1>

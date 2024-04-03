@@ -13,3 +13,9 @@ export interface MusicCard {
   instructor: string;
   isFeatured: boolean;
 }
+
+export interface Choices {
+  id: number;
+  title: string;
+  description: string;
+}

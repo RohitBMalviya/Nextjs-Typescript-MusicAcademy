@@ -1,0 +1,29 @@
+{
+  "whyChoose": [
+    {
+      "id": 1,
+      "title": "Guitar Fundamentals",
+      "description": "Learn the basics of playing guitar with our comprehensive beginner's course. Master fundamental chords, and strumming patterns to kickstart your guitar journey."
+    },
+    {
+      "id": 2,
+      "title": "Foundational Piano Skills",
+      "description": "Start your musical journey with foundational piano skills taught by expert instructors."
+    },
+    {
+      "id": 3,
+      "title": "Enhance Your Vocal Techniques",
+      "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners."
+    },
+    {
+      "id": 4,
+      "title": "Master Comprehensive Drumming",
+      "description": "Master the drums with our comprehensive course covering all skill levels."
+    },
+    {
+      "id": 5,
+      "title": "Discover Jazz Improvisation Art",
+      "description": "Learn the art of jazz improvisation with this course designed for all levels."
+    }
+  ]
+}

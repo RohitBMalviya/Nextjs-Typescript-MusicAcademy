@@ -8,21 +8,25 @@ export default function CardSection(): JSX.Element {
   );
   return (
     <>
-      <div className="bg-gray-900 h-full w-full space-y-8 py-10 flex flex-col items-center justify-center">
-        <div>
-          <h1>Feature Courses</h1>
-          <p>Learn With the Master</p>
+      <div className="bg-gray-900 h-full w-full space-y-8 py-10 flex flex-col items-center justify-center text-centerr">
+        <div className="flex flex-col justify-center items-center space-y-8 w-full">
+          <h2 className="min-[2000px]:text-7xl lg:text-6xl text-5xl font-bold max-[600px]:w-[90%] text-[#00FFFF]">
+            Feature Courses
+          </h2>
+          <p className="min-[2000px]:text-4xl lg:text-3xl text-2xl font-bold max-[600px]:w-[90%] ">
+            Learn With the Master
+          </p>
         </div>
-        <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-6 w-[90%] ">
+        <div className="grid min-[1440px]:grid-cols-3 lg:grid-cols-2 sm:grid-cols-2 gap-6 w-[90%]">
           {FeaturedData.map((items) => (
             <div
               key={items.id}
-              className="flex flex-col items-center justify-center bg-black rounded-[4rem] h-[320px]"
+              className="flex flex-col items-center justify-center bg-black rounded-[4rem] h-[350px]"
             >
-              <h2 className="min-[2000px]:text-[4xl] lg:text-4xl text-2xl font-bold w-[90%] h-[100px] flex items-center justify-center">
+              <h3 className="min-[2000px]:text-[4xl] lg:text-3xl text-2xl font-bold w-[90%] h-[110px] flex items-center justify-center">
                 {items.title}
-              </h2>
-              <p className=" min-[2000px]:text-2xl lg:text-xl text-lg text-center w-[70%] h-[110px]">
+              </h3>
+              <p className=" min-[2000px]:text-2xl lg:text-xl text-lg text-center w-[70%] h-[150px]">
                 {items.description}
               </p>
               <Link href={"#"}>
