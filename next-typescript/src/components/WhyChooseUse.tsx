@@ -3,7 +3,7 @@ import { Choices } from "@/interface/interface";
 import Image from "next/image";
 import { Images } from "./Images";
 
-export default function WhyChooseUse() {
+export default function WhyChooseUse(): JSX.Element {
   return (
     <>
       <div className="w-full flex justify-center">

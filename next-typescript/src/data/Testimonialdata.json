@@ -2,33 +2,39 @@
   "Testimonial": [
     {
       "id": 1,
-      "name": "John Smith, Lead Singer",
-      "description": "John Smith is an amazing singer with a powerful voice."
+      "description": "John Smith is an amazing singer with a powerful voice.",
+      "name": "John Smith, ",
+      "occupation": "Singer Student"
     },
     {
       "id": 2,
-      "name": "Emily Johnson, Backup Vocalist",
-      "description": "Emily Johnson's vocal range is exceptional, and she brings a unique style to every performance."
+      "description": "Emily Johnson's vocal range is exceptional, and she brings a unique style to every performance.",
+      "name": "Emily Johnson, ",
+      "occupation": "Vocalist Student"
     },
     {
       "id": 3,
-      "name": "Michael Davis, Lead Guitarist",
-      "description": "Michael Davis has a soulful voice that resonates with audiences of all ages."
+      "description": "Michael Davis has a soulful voice that resonates with audiences of all ages.",
+      "name": "Michael Davis, ",
+      "occupation": "Guitarist Student"
     },
     {
       "id": 4,
-      "name": "Sophia Lee, Keyboardist",
-      "description": "Sophia Lee's stage presence is captivating, and her vocals leave a lasting impression."
+      "description": "Sophia Lee's stage presence is captivating, and her vocals leave a lasting impression.",
+      "name": "Sophia Lee, ",
+      "occupation": "Keyboardist Student"
     },
     {
       "id": 5,
-      "name": "David Rodriguez, Drummer",
-      "description": "David Rodriguez's smooth voice and dynamic range make him a standout performer."
+      "description": "David Rodriguez's smooth voice and dynamic range make him a standout performer.",
+      "name": "David Rodriguez, ",
+      "occupation": "Drummer Student"
     },
     {
       "id": 6,
-      "name": "Jessica White, Bassist",
-      "description": "Jessica White's passion for music shines through in every note she sings."
+      "description": "Jessica White's passion for music shines through in every note she sings.",
+      "name": "Jessica White, ",
+      "occupation": "Bassist Student"
     }
   ]
 }

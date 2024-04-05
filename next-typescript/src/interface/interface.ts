@@ -33,4 +33,5 @@ export interface Testimonials {
   id: number;
   description: string;
   name: string;
+  occupation: string;
 }
