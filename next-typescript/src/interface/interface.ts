@@ -28,3 +28,9 @@ export interface Photos {
   alt: string;
   width?: number;
 }
+
+export interface Testimonials {
+  id: number;
+  description: string;
+  name: string;
+}

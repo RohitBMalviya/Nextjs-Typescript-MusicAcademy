@@ -21,12 +21,12 @@ export default function CardSection(): JSX.Element {
           {FeaturedData.map((items) => (
             <div
               key={items.id}
-              className="flex flex-col items-center justify-center bg-black rounded-[4rem] h-[350px]"
+              className="flex flex-col items-center justify-center bg-black rounded-[4rem] h-80"
             >
-              <h3 className="min-[2000px]:text-[4xl] lg:text-3xl text-2xl font-bold w-[90%] h-[110px] flex items-center justify-center">
+              <h3 className="min-[2000px]:text-[4xl] lg:text-3xl text-2xl font-bold w-[90%] h-20 flex items-center justify-center">
                 {items.title}
               </h3>
-              <p className=" min-[2000px]:text-2xl lg:text-xl text-lg text-center w-[70%] h-[150px]">
+              <p className=" min-[2000px]:text-2xl lg:text-xl text-lg text-center w-[75%] h-32">
                 {items.description}
               </p>
               <Link href={"#"}>

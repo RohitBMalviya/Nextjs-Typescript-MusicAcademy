@@ -1,6 +1,6 @@
 import CardSection from "@/components/CardSection";
 import HeroSection from "@/components/HeroSection";
-import TestinomialCard from "@/components/TestinomialCard";
+import TestinomialCard from "@/components/TestimonialCard";
 import WhyChooseUse from "@/components/WhyChooseUse";
 
 function Home(): JSX.Element {
