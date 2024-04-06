@@ -1,6 +1,7 @@
 import CardSection from "@/components/CardSection";
 import HeroSection from "@/components/HeroSection";
 import TestinomialCard from "@/components/TestimonialCard";
+import UpcomingEvent from "@/components/UpcommingEvent";
 import WhyChooseUse from "@/components/WhyChooseUse";
 
 function Home(): JSX.Element {
@@ -10,6 +11,7 @@ function Home(): JSX.Element {
       <CardSection />
       <WhyChooseUse />
       <TestinomialCard />
+      <UpcomingEvent />
     </div>
   );
 }

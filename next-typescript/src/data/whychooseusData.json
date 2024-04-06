@@ -2,28 +2,28 @@
   "whyChoose": [
     {
       "id": 1,
-      "title": "Guitar Fundamentals",
-      "description": "Learn the basics of playing guitar with our comprehensive beginner's course. Master fundamental chords, and strumming patterns to kickstart your guitar journey."
+      "title": "Discover Your Sound with Us: A Personal Journey in Music Mastery",
+      "description": "Embark on a musical journey that’s uniquely yours. Our personalized instruction adapts to your individual needs, setting the stage for unparalleled growth and creativity. At our music school, your aspirations meet our dedicated support, creating a harmonious path to mastery."
     },
     {
       "id": 2,
-      "title": "Foundational Piano Skills",
-      "description": "Start your musical journey with foundational piano skills taught by expert instructors."
+      "title": "Discover Your Sound with Us: A Personal Journey in Music Mastery",
+      "description": "Embark on a musical journey that’s uniquely yours. Our personalized instruction adapts to your individual needs, setting the stage for unparalleled growth and creativity. At our music school, your aspirations meet our dedicated support, creating a harmonious path to mastery."
     },
     {
       "id": 3,
-      "title": "Enhance Your Vocal Techniques",
-      "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners."
+      "title": "Discover Your Sound with Us: A Personal Journey in Music Mastery",
+      "description": "Embark on a musical journey that’s uniquely yours. Our personalized instruction adapts to your individual needs, setting the stage for unparalleled growth and creativity. At our music school, your aspirations meet our dedicated support, creating a harmonious path to mastery."
     },
     {
       "id": 4,
-      "title": "Master Comprehensive Drumming",
-      "description": "Master the drums with our comprehensive course covering all skill levels."
+      "title": "Live Feedback & Engagement",
+      "description": "Immerse yourself in an interactive learning experience where feedback is immediate, just like real-time changes in a collaborative project. This approach enhances your understanding and mastery of music concepts and performance techniques."
     },
     {
       "id": 5,
-      "title": "Discover Jazz Improvisation Art",
-      "description": "Learn the art of jazz improvisation with this course designed for all levels."
+      "title": "Cutting-Edge Curriculum",
+      "description": "Our curriculum is continuously updated to include the latest music education trends and technologies, ensuring you’re always learning with the most current and effective methods. Say goodbye to outdated materials and welcome an education that evolves with the industry."
     }
   ]
 }

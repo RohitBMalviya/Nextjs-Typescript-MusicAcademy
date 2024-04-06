@@ -33,5 +33,12 @@ export interface Testimonials {
   id: number;
   description: string;
   name: string;
-  occupation: string;
+  title: string;
+}
+
+export interface UpcomingEvents {
+  id: number;
+  title: string;
+  description: string;
+  isFeatured: Boolean;
 }

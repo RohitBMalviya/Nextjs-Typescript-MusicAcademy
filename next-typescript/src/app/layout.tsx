@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import "./global.css";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Music Play",
@@ -16,6 +17,7 @@ export default function RootLayout({
       <body className="bg-black max-[699px]:pt-28 ">
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

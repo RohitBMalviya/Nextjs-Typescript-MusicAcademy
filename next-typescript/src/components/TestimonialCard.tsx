@@ -18,7 +18,7 @@ export default function TestinomialCard(): JSX.Element {
               <p className=" min-[2000px]:text-xl lg:text-lg text-base px-4">
                 {items.name}
                 <br />
-                {items.occupation}
+                {items.title}
               </p>
             </div>
           ))}
