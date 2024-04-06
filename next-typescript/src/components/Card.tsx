@@ -18,7 +18,7 @@ export default function Card({
             key={items.id}
             className={`flex flex-col items-center justify-center ${cardBG} rounded-[4rem] h-80`}
           >
-            <h3 className="min-[2000px]:text-[4xl] lg:text-3xl text-2xl font-bold w-[90%] h-20 flex items-center justify-center">
+            <h3 className="min-[2000px]:text-[4xl] lg:text-3xl text-2xl font-bold w-[90%] h-20 flex items-center justify-center text-[#00FFFF]">
               {items.title}
             </h3>
             <p className=" min-[2000px]:text-2xl lg:text-xl text-lg text-center w-[75%] h-[9rem]">

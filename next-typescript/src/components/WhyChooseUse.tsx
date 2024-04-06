@@ -6,7 +6,7 @@ import { Images } from "./Images";
 export default function WhyChooseUse(): JSX.Element {
   return (
     <>
-      <div className="w-full flex justify-center">
+      <div className="w-full flex justify-center pt-10">
         <h2 className="min-[2000px]:text-7xl lg:text-6xl text-5xl font-bold max-[600px]:w-[90%] text-[#00FFFF] text-center">
           Why Choose Us
         </h2>
@@ -19,9 +19,9 @@ export default function WhyChooseUse(): JSX.Element {
               className="flex justify-center items-center w-full"
             >
               <div className="max-[768px]:w-full max-[768px]:h-[30rem] w-[60%] h-[32rem] max-[768px]:space-y-8 space-y-10 flex flex-col items-end max-[1024px]:items-center justify-center mb-4">
-                <h2 className=" lg:text-4xl text-3xl font-bold w-[80%] max-[600px]:w-[95%] text-start">
+                <h3 className=" lg:text-4xl text-3xl font-bold w-[80%] max-[600px]:w-[95%] text-start text-[#00FFFF]">
                   {items.title}
-                </h2>
+                </h3>
                 <div className="w-[80%] max-[600px]:w-[95%]">
                   <p className=" lg:text-2xl text-xl font-bold w-[70%] max-[1024px]:w-[100%] text-start">
                     {items.description}
