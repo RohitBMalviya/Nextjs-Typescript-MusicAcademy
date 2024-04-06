@@ -4,7 +4,7 @@ export default function Footer(): JSX.Element {
   return (
     <>
       <footer className="bg-gray-900 h-full py-14 text-white grid min-[1440px]:grid-cols-4 lg:grid-cols-2 sm:grid-cols-2 gap-6 items-center">
-        <div className="space-y-4 flex flex-col items-center">
+        <div className="space-y-4 flex flex-col items-center h-[12rem]">
           <h3 className="min-[2000px]:text-4xl lg:text-3xl text-2xl font-bold w-[60%]">
             About Us
           </h3>
@@ -13,7 +13,7 @@ export default function Footer(): JSX.Element {
             realm of music education
           </p>
         </div>
-        <div className="space-y-4 flex flex-col items-center">
+        <div className="space-y-4 flex flex-col items-center h-[12rem]">
           <h3 className="min-[2000px]:text-4xl lg:text-3xl text-2xl font-bold w-[60%]">
             Quick Link
           </h3>
@@ -32,11 +32,11 @@ export default function Footer(): JSX.Element {
             </li>
           </menu>
         </div>
-        <div className="space-y-4 flex flex-col items-center">
+        <div className="space-y-4 flex flex-col items-center h-[12rem]">
           <h3 className="min-[2000px]:text-4xl lg:text-3xl text-2xl font-bold w-[60%]">
             Follow Us
           </h3>
-          <ul className="min-[2000px]:text-2xl lg:text-xl text-lg w-[60%]">
+          <ul className="min-[2000px]:text-2xl lg:text-xl text-lg w-[60%] flex ">
             <li>
               <Link href="#">I</Link>
             </li>
@@ -51,7 +51,7 @@ export default function Footer(): JSX.Element {
             </li>
           </ul>
         </div>
-        <div className="space-y-4 flex flex-col items-center">
+        <div className="space-y-4 flex flex-col items-center h-[12rem]">
           <h3 className="min-[2000px]:text-4xl lg:text-3xl text-2xl font-bold w-[60%]">
             Contact Us
           </h3>

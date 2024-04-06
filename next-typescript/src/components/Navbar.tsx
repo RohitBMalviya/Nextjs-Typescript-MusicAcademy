@@ -24,7 +24,7 @@ export default function Navbar(): JSX.Element {
   return (
     <>
       <nav className="bg-transparent  w-full flex justify-center items-center h-20 min-[2000px]:h-24 fixed top-4">
-        <ul className="min-[550px]:flex hidden justify-around items-center text-2xl max-[650px]:text-[22px] max-[950px]:w-[60%] font-semibold h-14 min-[2000px]:h-16 bg-white w-[50%] rounded-full ">
+        <ul className="min-[550px]:flex hidden justify-around items-center text-2xl max-[650px]:text-[22px] max-[1024px]:w-[70%] font-semibold h-14 min-[2000px]:h-16 bg-white w-[50%] rounded-full ">
           <li>
             <Link
               href={"/"}
@@ -33,6 +33,16 @@ export default function Navbar(): JSX.Element {
               } hover:text-zinc-500`}
             >
               Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              href={"/aboutus"}
+              className={`${
+                pathname === "/aboutus" ? "text-blue-600" : "text-black"
+              } hover:text-zinc-500`}
+            >
+              About Us
             </Link>
           </li>
           <li
