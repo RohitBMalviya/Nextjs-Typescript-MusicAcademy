@@ -12,7 +12,7 @@ export default function WhyChooseUse(): JSX.Element {
         </h2>
       </div>
       <div className=" h-[50rem] max-[768px]:h-[35rem] flex justify-center items-center">
-        <div className="h-[32rem] max-[768px]:h-[30rem]  overflow-y-auto no-scrollbar">
+        <div className="h-[32rem] max-[768px]:h-[30rem]  overflow-y-scroll no-scrollbar">
           {Choose.whyChoose.map((items: Choices) => (
             <div
               key={items.id}

@@ -1,6 +1,14 @@
 import Navbar from "@/components/Navbar";
 import "./global.css";
 import Footer from "@/components/Footer";
+import { Roboto } from "next/font/google";
+
+const roboto = Roboto({
+  weight: ["100", "300", "400", "500", "700", "900"],
+  style: ["normal"],
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const metadata = {
   title: "Music Play",
@@ -14,7 +22,7 @@ export default function RootLayout({
 }): JSX.Element {
   return (
     <html lang="en">
-      <body className="bg-black max-[699px]:pt-28 ">
+      <body className={`bg-black max-[699px]:pt-28 ${roboto.className}`}>
         <Navbar />
         {children}
         <Footer />

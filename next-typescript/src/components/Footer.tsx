@@ -45,22 +45,22 @@ export default function Footer(): JSX.Element {
           <ul className="min-[2000px]:text-2xl lg:text-xl text-lg w-[70%] max-[641px]:w-full flex ">
             <li>
               <Link href="#">
-                <Image src={Iicon} alt="Instagram" />
+                <Image src={Iicon} alt="Instagram" width={50} />
               </Link>
             </li>
             <li>
               <Link href="#">
-                <Image src={Ficon} alt="Facebook" />
+                <Image src={Ficon} alt="Facebook" width={50} />
               </Link>
             </li>
             <li>
               <Link href="#">
-                <Image src={Yicon} alt="Youtube" />
+                <Image src={Yicon} alt="Youtube" width={50} />
               </Link>
             </li>
             <li>
               <Link href="#">
-                <Image src={Licon} alt="LinkedIn" />
+                <Image src={Licon} alt="LinkedIn" width={50} />
               </Link>
             </li>
           </ul>
@@ -69,15 +69,24 @@ export default function Footer(): JSX.Element {
           <h3 className="min-[2000px]:text-4xl lg:text-3xl text-2xl font-bold w-[70%] max-[641px]:w-full text-[#00FFFF]">
             Contact Us
           </h3>
-          <address className="min-[2000px]:text-2xl lg:text-xl text-lg w-[70%] max-[641px]:w-full">
-            Maharashtra,Bharat Pune 412115 <br />
-            Email: music@academy.com <br />
-            phone:+91 9876543210
+          <address
+            className="min-[2000px]:text-2xl lg:text-xl text-lg w-[70%] max-[641px]:w-full not-italic"
+            title="Address"
+          >
+            Maharashtra,Bharat <br />
+            Pune ,412115 <br />
+            <Link href={"mailto:music@academy.com"} title="music@academy.com">
+              Email: music@academy.com
+            </Link>
+            <br />
+            <Link href={"tel:+919876543210"} title="+919876543210">
+              phone:+91 9876543210
+            </Link>
           </address>
         </div>
       </footer>
-      <small className="text-white text-center flex justify-center">
-        &#169; 2024 Music Academy All Rights Reserved
+      <small className="text-white text-center flex justify-center text-lg">
+        &#169; 2024 Music Academy. All Rights Reserved
       </small>
     </>
   );

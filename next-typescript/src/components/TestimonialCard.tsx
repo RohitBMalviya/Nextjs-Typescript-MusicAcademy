@@ -13,17 +13,20 @@ export default function TestinomialCard(): JSX.Element {
             Hear From The Champ
           </p>
         </div>
-        <main className="bg-gray-900 flex items-center h-[35rem] gap-12 w-[90%]">
+        <main className="bg-gray-900 flex items-center  h-[36rem] gap-10 w-[90%] overflow-x-scroll no-scrollbar">
           {TestimonialData.Testimonial.map((items: Testimonials) => (
-            <div key={items.id} className=" bg-black rounded-[2rem] text-start">
-              <article className="min-[2000px]:text-[3xl] lg:text-2xl text-xl">
-                {items.description}
+            <div
+              key={items.id}
+              className=" bg-black rounded-[2rem] h-[18rem] max-[350px]:h-[22rem] min-[1500px]:h-[20rem] text-start w-full flex justify-center items-center p-8"
+            >
+              <article className="min-[2000px]:text-2xl lg:text-xl text-lg min-[1500px]:w-[30rem] min-[1050px]:w-[21.5rem] lg:w-[23.5rem] md:w-[16.5rem] max-[787px]:w-[20rem]">
+                <p> {items.description}</p> <br />
+                <p>
+                  {items.name}
+                  <br />
+                  {items.title}
+                </p>
               </article>
-              <p className=" min-[2000px]:text-xl lg:text-lg text-base px-4">
-                {items.name}
-                <br />
-                {items.title}
-              </p>
             </div>
           ))}
         </main>

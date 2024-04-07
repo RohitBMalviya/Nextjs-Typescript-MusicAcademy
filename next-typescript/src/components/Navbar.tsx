@@ -58,7 +58,7 @@ export default function Navbar(): JSX.Element {
             <div id="menuList" className={"hover:text-zinc-500 flex"}>
               <p>Courses</p>
               <svg
-                className="w-3.5  ms-2 pt-2 hover:text-zinc-500"
+                className="w-3.5 ms-2 hover:text-zinc-500"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
