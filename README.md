@@ -1,1 +1,1 @@
-Learning the Nextjs and Typescripts
+Learning the Nextjs and Typescripts With FrontEnd And BackEnd in One
